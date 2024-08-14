@@ -1,0 +1,27 @@
+---
+title: Art
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Art
+  parent: Other Stuff
+  order: 6
+---
+
+<h1>Art</h1>
+<p>An out-of-date portfolio of art projects.</p>
+<br>
+<br>
+<br>
+
+<div class="portfolioLayout">   
+    {% for post in collections.art %}
+      <div class="portfolioItem">
+        <a href="{{post.url}}">
+          <img class="portfolioImage" src="{{post.data.cover}}">
+        </a>
+        <h3> 
+          <a href="{{post.url}}">{{post.data.title}}</a>
+        </h3>
+      </div>
+    {% endfor %}
+</div>
