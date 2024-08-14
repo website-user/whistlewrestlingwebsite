@@ -1,11 +1,11 @@
 module.exports = {
-	title: "Liam Nilsen",
+	title: "Whistle Wrestling",
 	url: "https://liam.media/",
 	language: "en",
-	description: "Portfolio and homepage for artist and educator Liam Nilsen.",
+	description: "Website for the popular international sport Whistle Wrestling.",
 	author: {
 		name: "Liam Nilsen",
 		email: "nilsenliam@gmail.com",
-		url: ""
+		url: "whistlewrestling.org"
 	}
 }
